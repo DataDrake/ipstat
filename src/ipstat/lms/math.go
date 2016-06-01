@@ -1,7 +1,7 @@
 package lms
 import(
 	"math"
-	"netstat/data"
+	"..//data"
 )
 
 func LMS(size []float64, rtt []float64) (float64,float64){

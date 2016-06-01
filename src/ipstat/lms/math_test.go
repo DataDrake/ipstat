@@ -3,7 +3,7 @@ package lms
 import (
 	"testing"
 	"math"
-	"netstat/data"
+	"ipstat/data"
 )
 
 func TestLMS1(t *testing.T) {

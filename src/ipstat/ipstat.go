@@ -3,8 +3,8 @@ import (
 	"os"
 	"flag"
 	"fmt"
-	"netstat/data"
-	"netstat/lms"
+	"ipstat/data"
+	"ipstat/lms"
 )
 
 func main(){
@@ -12,7 +12,7 @@ func main(){
 	flag.Parse()
 	args := flag.Args()
 	if len(args) != 1 {
-		fmt.Println("Usage: go-netstat [-S] <IP>")
+		fmt.Println("Usage: ipstat [-S] <IP>")
 		os.Exit(1)
 	}
 	samples,err := data.CollectDataPoints(args[0],100,1500,100)
