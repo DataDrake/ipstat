@@ -1,6 +1,6 @@
 *.so
 *.a
 .idea/*
-
-src/github.com/tatsushid
-src/golang.org/x
+bin
+pkg
+src/github.com
