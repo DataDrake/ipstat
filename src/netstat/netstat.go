@@ -3,8 +3,8 @@ import (
 	"os"
 	"flag"
 	"fmt"
-	"/data"
-	"/lms"
+	"netstat/data"
+	"netstat/lms"
 )
 
 func main(){
