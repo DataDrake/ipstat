@@ -3,8 +3,8 @@ import (
 	"os"
 	"flag"
 	"fmt"
-	"ipstat/data"
-	"ipstat/lms"
+	"github.com/DataDrake/ipstat/data"
+	"github.com/DataDrake/ipstat/lms"
 )
 
 func main(){

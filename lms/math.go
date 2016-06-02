@@ -1,7 +1,7 @@
 package lms
 import(
 	"math"
-	"..//data"
+	"github.com/DataDrake/ipstat/data"
 )
 
 func LMS(size []float64, rtt []float64) (float64,float64){

@@ -3,7 +3,7 @@ package lms
 import (
 	"testing"
 	"math"
-	"ipstat/data"
+	"github.com/DataDrake/ipstat/data"
 )
 
 func TestLMS1(t *testing.T) {
